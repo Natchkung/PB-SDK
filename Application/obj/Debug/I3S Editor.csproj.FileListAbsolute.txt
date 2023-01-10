@@ -1,0 +1,22 @@
+c:\users\livetowin34\documents\visual studio 2013\Projects\I3S Editor\I3S Editor\bin\Debug\I3S Editor.exe.config
+c:\users\livetowin34\documents\visual studio 2013\Projects\I3S Editor\I3S Editor\bin\Debug\I3S Editor.exe
+c:\users\livetowin34\documents\visual studio 2013\Projects\I3S Editor\I3S Editor\bin\Debug\I3S Editor.pdb
+c:\users\livetowin34\documents\visual studio 2013\Projects\I3S Editor\I3S Editor\obj\Debug\I3S Editor.csprojResolveAssemblyReference.cache
+c:\users\livetowin34\documents\visual studio 2013\Projects\I3S Editor\I3S Editor\obj\Debug\I3S_Editor.Properties.Resources.resources
+c:\users\livetowin34\documents\visual studio 2013\Projects\I3S Editor\I3S Editor\obj\Debug\I3S Editor.csproj.GenerateResource.Cache
+c:\users\livetowin34\documents\visual studio 2013\Projects\I3S Editor\I3S Editor\obj\Debug\I3S Editor.exe
+c:\users\livetowin34\documents\visual studio 2013\Projects\I3S Editor\I3S Editor\obj\Debug\I3S Editor.pdb
+C:\Users\LiveToWin34\documents\visual studio 2013\Projects\I3S Editor\I3S Editor\obj\Debug\Skript47.Form1.resources
+C:\Users\LiveToWin34\Documents\Visual Studio 2013\Projects\I3S Editor\I3S Editor\I3S Editor\bin\Debug\I3S Editor.exe.config
+C:\Users\LiveToWin34\Documents\Visual Studio 2013\Projects\I3S Editor\I3S Editor\I3S Editor\obj\Debug\I3S Editor.exe
+C:\Users\LiveToWin34\Documents\Visual Studio 2013\Projects\I3S Editor\I3S Editor\I3S Editor\obj\Debug\I3S Editor.pdb
+C:\Users\LiveToWin34\Documents\Visual Studio 2013\Projects\I3S Editor\I3S Editor\I3S Editor\bin\Debug\I3S Editor.exe
+C:\Users\LiveToWin34\Documents\Visual Studio 2013\Projects\I3S Editor\I3S Editor\I3S Editor\bin\Debug\I3S Editor.pdb
+C:\Users\LiveToWin34\Documents\Visual Studio 2013\Projects\I3S Editor\I3S Editor\I3S Editor\obj\Debug\I3S Editor.csprojResolveAssemblyReference.cache
+C:\Users\LiveToWin34\Documents\Visual Studio 2013\Projects\I3S Editor\I3S Editor\I3S Editor\obj\Debug\Skript47.Form1.resources
+C:\Users\LiveToWin34\Documents\Visual Studio 2013\Projects\I3S Editor\I3S Editor\I3S Editor\obj\Debug\I3S_Editor.Properties.Resources.resources
+C:\Users\LiveToWin34\Documents\Visual Studio 2013\Projects\I3S Editor\I3S Editor\I3S Editor\obj\Debug\I3S Editor.csproj.GenerateResource.Cache
+C:\Users\LiveToWin34\Documents\Visual Studio 2013\Projects\I3S Editor\I3S Editor\I3S Editor\obj\Debug\Skript47.Form2.resources
+C:\Users\LiveToWin34\Documents\Visual Studio 2013\Projects\I3S Editor Skript47 C#\I3S Editor\bin\Debug\I3S Editor.exe.config
+C:\Users\LiveToWin34\Documents\Visual Studio 2013\Projects\I3S Editor Skript47 C#\I3S Editor\obj\Debug\I3S Editor.exe
+C:\Users\LiveToWin34\Documents\Visual Studio 2013\Projects\I3S Editor Skript47 C#\I3S Editor\obj\Debug\I3S Editor.pdb

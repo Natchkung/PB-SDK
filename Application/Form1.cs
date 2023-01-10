@@ -18,7 +18,7 @@ namespace Skript47
         public I3S tempPack;
         public I3S tempFile;
         public string[] fileType = { "i3Pack", "i3s", "pef", "i3a", "I3CHR", "i3CharaEditor", "i3wrd", "i3Light", "i3Obj", "i3ObjectEditor", "i3Evt", "i3Path", "i3Game", "i3GL", "i3font", "env", "i3UIs", "gui", "guiNode", "i3LevelDesign", "i3AI", "i3UILib" };
-        public string[] fileTag = { "", "Weapon", "Chara", "Equip", "Object", "Sound", "Script", "String", "UI", "F_", "M_", "G_", "O_" };
+        public string[] fileTag = { "", "Weapon", "Chara", "Equip", "Object", "Sound", "Script", "String", "UI", "F_", "M_", "G_", "O_", "S_" };
         public string directory;
         OpenFileDialog ofd1 = new OpenFileDialog();
         SaveFileDialog sfd1 = new SaveFileDialog();
@@ -53,7 +53,7 @@ namespace Skript47
             lv3.Font = new Font(FontFamily.GenericMonospace, lv3.Font.Size);
             rtb1.Font = new Font(FontFamily.GenericMonospace, rtb1.Font.Size);
             ofd3.Multiselect = true;
-            ofd3.Filter = "i3VTexImage (*.i3VTexImage)|*.i3VTexImage;";
+            ofd3.Filter = "i3VTexImage (*.i3VTexImage)|*.i3VTexImage;|Image Files (*.tga, *.dds, *.i3i)|*.tga;*.dds;*.i3i;";
             //lv1.Enabled = false;
             //alllContentToolStripMenuItem.Enabled = false;
             //importStripMenuItem.Enabled = false;
@@ -221,7 +221,7 @@ namespace Skript47
         {
             if (lv3.SelectedIndices.Count > 0)
             {
-                //try
+                try
                 {
                     var path = Path.Combine(Path.GetTempPath(), "i3pack");
                     Directory.CreateDirectory(path);
@@ -246,7 +246,7 @@ namespace Skript47
                         tempFile._pack.ElementAt(lv3.SelectedIndices[0]).SaveAsFile(path, true, true);
                     }
                 }
-                //catch
+                catch
                 {
 
                 }
@@ -660,11 +660,11 @@ namespace Skript47
                 var data = tempFile._block.ElementAt(lv1.SelectedIndices[0]).Value.data;
                 if (type == "i3RegArray")
                 {
-                    f2.textBox1.Text = new i3RegArray(data).ToText();
+                    //f2.textBox1.Text = new i3RegArray(data).ToText();
                 }
                 else
                 {
-                    f2.textBox1.Text = string.Empty;
+                    //f2.textBox1.Text = string.Empty;
                 }
             }
         }
@@ -783,33 +783,62 @@ namespace Skript47
 
         void i3VTexImageToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            if (f2 == null || f2.IsDisposed)
-            {
-                f2 = new Form2();
-            }
-            f2.Owner = this;
-            f2.Show();
-            f2.Focus();
-
             try
             {
                 if (ofd3.ShowDialog() == DialogResult.OK)
                 {
-                    var filesCount = 0;
+                    var sourceFiles = new List<string>();
                     foreach (var element in ofd3.FileNames)
                     {
-                        var x = new i3VTexImage(File.ReadAllBytes(element));
-                        var name = Path.ChangeExtension(element, ".tga");
-                        File.WriteAllBytes(name, x.ToTGA());
-                        if (ofd3.FileNames.Length == 1)
+                        var ext = Path.GetExtension(element).ToLower();
+                        if (ext == ".i3vteximage")
                         {
-                            System.Diagnostics.Process.Start(name);
+                            var i3VTexImage = new i3VTexImage(File.ReadAllBytes(element), element);
+                            var name = Path.ChangeExtension(element, ".tga");
+                            var tga = new TGA(i3VTexImage.ToTGA(), true);
+                            tga.FlipY();
+                            File.WriteAllBytes(name, tga.Build(0, 0, 0, 0));
+                            sourceFiles.Add(name);
                         }
-                        filesCount++;
+                        if (ext == ".i3i" | ext == ".tga" | ext == ".dds")
+                        {
+                            var i3VTexImage = new i3VTexImage(File.ReadAllBytes(element), element);
+                            if (ext == ".tga")
+                            {
+                                var tga = new TGA(i3VTexImage.ToTGA(), true);
+                                tga.FlipY();
+                                i3VTexImage = new i3VTexImage(tga.Build(0, 0, 0, 0), element);
+                            }
+                            var name = Path.ChangeExtension(element, ".i3VTexImage");
+                            File.WriteAllBytes(name, i3VTexImage.Build(false));
+                            sourceFiles.Add(name);
+                        }
                     }
-                    if (ofd3.FileNames.Length > 1)
+                    if (sourceFiles.Count > 0)
                     {
-                        MessageBox.Show(filesCount.ToString() + " files successfully converted!", "PB SDK - By Skript47");
+                        System.Media.SystemSounds.Asterisk.Play();
+                        if (ofd3.FilterIndex == 1)
+                        {
+                            var dialogResult = MessageBox.Show(sourceFiles.Count.ToString() + " files successfully converted! Open it now?", "I3I x DDS Converter - By Skript47", MessageBoxButtons.YesNo);
+                            if (dialogResult == DialogResult.Yes)
+                            {
+                                foreach (var element in sourceFiles)
+                                {
+                                    if (File.Exists(element))
+                                    {
+                                        System.Diagnostics.Process.Start(element);
+                                    }
+                                }
+                            }
+                        }
+                        else
+                        {
+                            MessageBox.Show(sourceFiles.Count.ToString() + " files was converted!", "PB SDK - By Skript47");
+                        }
+                    }
+                    else
+                    {
+                        MessageBox.Show("0 files was converted!", "PB SDK - By Skript47");
                     }
                 }
             }
@@ -817,6 +846,11 @@ namespace Skript47
             {
 
             }
+        }
+
+        private void Form1_Load(object sender, EventArgs e)
+        {
+
         }
     }
 }

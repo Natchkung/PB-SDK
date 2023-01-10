@@ -10,17 +10,15 @@ namespace Skript47
     {
         public string name;
         public int[] unknown;
+        public byte[] packType;
         public int parrent;
         public int fileCount;
         public int fileStep;
         public int fileType;
-
         public List<I3S.Pack> _pack = new List<I3S.Pack>();
 
         public i3PackNode(byte[] data)
         {
-
-
             using (var br = new BinaryReader(new MemoryStream(data)))
             {
                 name = br.ReadString();
@@ -36,14 +34,12 @@ namespace Skript47
                 br.ReadBytes(56);
                 parrent = br.ReadInt32();  // Ссылка на родительский елемент
 
-                var packType = br.ReadBytes(8); // Описание типа и структуры
-                I3S.DecryptB(packType, 2);
+                packType = br.ReadBytes(8); // Описание типа и структуры
+                I3S.DecryptB(packType, 3);
                 fileType = packType[3];
-                fileCount = packType[4] / 2;
-                fileStep = fileType == 100 ? 92 : 76;
+                fileCount = BitConverter.ToInt16(packType, 4);
+                fileStep = fileType == 50 ? 92 : 76;
             }
-
-
         }
 
         public i3PackNode(byte[] data, byte[] i3sBody, int blockID)
@@ -51,7 +47,7 @@ namespace Skript47
             using (var br = new BinaryReader(new MemoryStream(data)))
             {
                 name = br.ReadString();
-                br.ReadInt32(); // Тип файла
+                var unt = br.ReadInt32(); // Тип файла
                 br.ReadInt32();
                 br.ReadInt32();
 
@@ -63,11 +59,12 @@ namespace Skript47
                 br.ReadBytes(56);
                 parrent = br.ReadInt32();  // Ссылка на родительский елемент
 
-                var packType = br.ReadBytes(8); // Описание типа и структуры
-                I3S.DecryptB(packType, 2);
+                packType = br.ReadBytes(8); // Описание типа и структуры
+
+                I3S.DecryptB(packType, 3);
                 fileType = packType[3];
-                fileCount = packType[4] / 2;
-                fileStep = fileType == 100 ? 92 : 76;
+                fileCount = BitConverter.ToInt16(packType, 4);
+                fileStep = fileType == 50 ? 92 : 76;
 
                 for (int i = 0; i < fileCount; i++)
                 {
@@ -90,8 +87,16 @@ namespace Skript47
                         sizeF = BitConverter.ToUInt16(tempF, 74) * 65536 + BitConverter.ToUInt16(tempF, 70);
                     }
 
-                    var fileData = new byte[sizeF];
-                    Array.Copy(i3sBody, startF, fileData, 0, fileData.Length);
+                    var fileData = new byte[0];
+                    try
+                    {
+                        fileData = new byte[sizeF];
+                        Array.Copy(i3sBody, startF, fileData, 0, fileData.Length);
+                    }
+                    catch
+                    {
+
+                    }
 
                     var ThisPack = new I3S.Pack(blockID, startF, name, nameF, fileData);
                     _pack.Add(ThisPack);
@@ -101,7 +106,7 @@ namespace Skript47
 
         public override string ToString()
         {
-            return string.Format("{0} (ParrentID = {1} Files = {2} Step = {3})", name, parrent, fileCount, fileStep);
+            return string.Format("{0} (ParrentID = {1} Files = {2} Type = {4})", name, parrent, fileCount, fileStep, fileType);
         }
     }
 }

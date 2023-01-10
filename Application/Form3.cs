@@ -50,8 +50,22 @@ namespace Skript47
                     var B = cb2.SelectedItem.ToString();
                     var _fileList = Directory.GetFiles(A, B + "*.i3Pack", SearchOption.TopDirectoryOnly);
                     _fileList = _fileList.Where(a => (Path.GetFileNameWithoutExtension(a).ToLower()).Contains(filter.ToLower())).ToArray();
-                    var _itemList = Array.ConvertAll(_fileList, f => new ListViewItem(Path.GetFileNameWithoutExtension(f)) { ToolTipText = f });
-                    lv1.Items.AddRange(_itemList);
+                    if (checkBox1.Checked)
+                    {
+                        var _itemList = Array.ConvertAll(_fileList, f => new ListViewItem(Path.GetFileNameWithoutExtension(f)) { ToolTipText = f });
+                        lv1.Items.AddRange(_itemList);
+                    }
+                    else
+                    {
+                        foreach (var element in _fileList)
+                        {
+                            var props = new FileInfo(element);
+                            if (props.Length > 313)
+                            {
+                                lv1.Items.Add(new ListViewItem(Path.GetFileNameWithoutExtension(element)) { ToolTipText = element });
+                            }
+                        }
+                    }
                     lv1.EndUpdate();
                 }
             }
@@ -220,6 +234,22 @@ namespace Skript47
         void toolStripStatusLabel1_Click(object sender, EventArgs e)
         {
             main.ReadDirectoryList(true);
+            LoadList();
+        }
+
+        void textBox1_Enter(object sender, EventArgs e)
+        {
+            foreach (InputLanguage lang in InputLanguage.InstalledInputLanguages)
+            {
+                if (lang.Culture.Name == "en-US")
+                {
+                    InputLanguage.CurrentInputLanguage = lang;
+                }
+            }
+        }
+
+        void checkBox1_CheckedChanged(object sender, EventArgs e)
+        {
             LoadList();
         }
     }

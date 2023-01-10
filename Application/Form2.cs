@@ -1,4 +1,5 @@
 ﻿using System;
+using System.IO;
 using System.Windows.Forms;
 
 namespace Skript47
@@ -19,7 +20,22 @@ namespace Skript47
 
         void listView1_DragDrop(object sender, DragEventArgs e)
         {
-            var temp = (string[])e.Data.GetData(DataFormats.FileDrop);
+            var files = (string[])e.Data.GetData(DataFormats.FileDrop);
+            foreach (var element in files)
+            {
+                if (Directory.Exists(element))
+                {
+                    Directory.GetFiles(element, "*.i3vteximage");
+                }
+                else if (File.Exists(element))
+                {
+                    if (Path.GetExtension(element).ToLower() == ".i3vteximage")
+                    {
+
+                    }
+                }
+            }
+
         }
 
         void listView1_DragEnter(object sender, DragEventArgs e)

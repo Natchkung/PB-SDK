@@ -1,0 +1,80 @@
+C:\Users\LiveToWin34\Documents\Visual Studio 2013\Projects\I3S Editor Skript47 C#\WindowsFormsApplication2\bin\Debug\I3S Editor.exe.config
+C:\Users\LiveToWin34\Documents\Visual Studio 2013\Projects\I3S Editor Skript47 C#\WindowsFormsApplication2\obj\Debug\I3S Editor.exe
+C:\Users\LiveToWin34\Documents\Visual Studio 2013\Projects\I3S Editor Skript47 C#\WindowsFormsApplication2\obj\Debug\I3S Editor.pdb
+C:\Users\LiveToWin34\Documents\Visual Studio 2013\Projects\I3S Editor Skript47 C#\WindowsFormsApplication2\obj\Debug\Win.csprojResolveAssemblyReference.cache
+C:\Users\LiveToWin34\Documents\Visual Studio 2013\Projects\I3S Editor Skript47 C#\WindowsFormsApplication2\obj\Debug\Skript47.Form1.resources
+C:\Users\LiveToWin34\Documents\Visual Studio 2013\Projects\I3S Editor Skript47 C#\WindowsFormsApplication2\obj\Debug\Skript47.Form2.resources
+C:\Users\LiveToWin34\Documents\Visual Studio 2013\Projects\I3S Editor Skript47 C#\WindowsFormsApplication2\obj\Debug\I3S_Editor.Properties.Resources.resources
+C:\Users\LiveToWin34\Documents\Visual Studio 2013\Projects\I3S Editor Skript47 C#\WindowsFormsApplication2\obj\Debug\Win.csproj.GenerateResource.Cache
+C:\Users\LiveToWin34\Documents\Visual Studio 2013\Projects\I3S Editor Skript47 C#\WindowsFormsApplication2\bin\Debug\I3S Editor.exe
+C:\Users\LiveToWin34\Documents\Visual Studio 2013\Projects\I3S Editor Skript47 C#\WindowsFormsApplication2\bin\Debug\I3S Editor.pdb
+C:\Users\LiveToWin34\Documents\Visual Studio 2013\Projects\I3S Editor Skript47 C#\Application\obj\Debug\Win.csprojResolveAssemblyReference.cache
+C:\Users\LiveToWin34\Documents\Visual Studio 2013\Projects\I3S Editor Skript47 C#\Application\obj\Debug\Skript47.Form1.resources
+C:\Users\LiveToWin34\Documents\Visual Studio 2013\Projects\I3S Editor Skript47 C#\Application\obj\Debug\Win.csproj.GenerateResource.Cache
+C:\Users\LiveToWin34\Documents\Visual Studio 2013\Projects\I3S Editor Skript47 C#\Application\obj\Debug\Skript47.Properties.Resources.resources
+C:\Users\LiveToWin34\Documents\Visual Studio 2013\Projects\I3S Editor Skript47 C#\Application\obj\Debug\Skript47.Form2.resources
+C:\Users\LiveToWin34\Documents\Visual Studio 2013\Projects\I3S Editor Skript47 C#\Application\obj\Debug\Skript47.Form3.resources
+C:\Users\LiveToWin34\Documents\Visual Studio 2013\Projects\I3S Editor Skript47 C#\Application\bin\Debug\PB SKD - By Skript47.exe.config
+C:\Users\LiveToWin34\Documents\Visual Studio 2013\Projects\I3S Editor Skript47 C#\Application\bin\Debug\PB SKD - By Skript47.exe
+C:\Users\LiveToWin34\Documents\Visual Studio 2013\Projects\I3S Editor Skript47 C#\Application\bin\Debug\PB SKD - By Skript47.pdb
+C:\Users\LiveToWin34\Documents\Visual Studio 2013\Projects\I3S Editor Skript47 C#\Application\obj\Debug\PB SKD - By Skript47.exe
+C:\Users\LiveToWin34\Documents\Visual Studio 2013\Projects\I3S Editor Skript47 C#\Application\obj\Debug\PB SKD - By Skript47.pdb
+C:\Users\LiveToWin34\Documents\Visual Studio 2013\Projects\PB SDK Skript47 C#\Application\bin\Debug\PB SKD - By Skript47.exe.config
+C:\Users\LiveToWin34\Documents\Visual Studio 2013\Projects\PB SDK Skript47 C#\Application\obj\Debug\PB SKD - By Skript47.exe
+C:\Users\LiveToWin34\Documents\Visual Studio 2013\Projects\PB SDK Skript47 C#\Application\obj\Debug\PB SKD - By Skript47.pdb
+C:\Users\LiveToWin34\Documents\Visual Studio 2013\Projects\PB SDK Skript47 C#\Application\bin\Debug\PB SKD - By Skript47.exe
+C:\Users\LiveToWin34\Documents\Visual Studio 2013\Projects\PB SDK Skript47 C#\Application\bin\Debug\PB SKD - By Skript47.pdb
+C:\Users\LiveToWin34\Documents\Visual Studio 2013\Projects\PB SDK Skript47 C#\Application\obj\Debug\Win.csprojResolveAssemblyReference.cache
+C:\Users\LiveToWin34\Documents\Visual Studio 2013\Projects\PB SDK Skript47 C#\Application\obj\Debug\Skript47.Form1.resources
+C:\Users\LiveToWin34\Documents\Visual Studio 2013\Projects\PB SDK Skript47 C#\Application\obj\Debug\Skript47.Form2.resources
+C:\Users\LiveToWin34\Documents\Visual Studio 2013\Projects\PB SDK Skript47 C#\Application\obj\Debug\Skript47.Form3.resources
+C:\Users\LiveToWin34\Documents\Visual Studio 2013\Projects\PB SDK Skript47 C#\Application\obj\Debug\Skript47.Properties.Resources.resources
+C:\Users\LiveToWin34\Documents\Visual Studio 2013\Projects\PB SDK Skript47 C#\Application\obj\Debug\Win.csproj.GenerateResource.Cache
+C:\Users\Main\Documents\Visual Studio 2013\Projects\PB SDK Skript47 C#\Application\bin\Debug\PB SKD - By Skript47.exe.config
+C:\Users\Main\Documents\Visual Studio 2013\Projects\PB SDK Skript47 C#\Application\obj\Debug\PB SKD - By Skript47.exe
+C:\Users\Main\Documents\Visual Studio 2013\Projects\PB SDK Skript47 C#\Application\obj\Debug\PB SKD - By Skript47.pdb
+C:\Users\Main\Documents\Visual Studio 2013\Projects\PB SDK Skript47 C#\Application\bin\Debug\PB SKD - By Skript47.exe
+C:\Users\Main\Documents\Visual Studio 2013\Projects\PB SDK Skript47 C#\Application\bin\Debug\PB SKD - By Skript47.pdb
+C:\Users\Main\Documents\Visual Studio 2013\Projects\PB SDK Skript47 C#\Application\obj\Debug\Skript47.Form1.resources
+C:\Users\Main\Documents\Visual Studio 2013\Projects\PB SDK Skript47 C#\Application\obj\Debug\Skript47.Form2.resources
+C:\Users\Main\Documents\Visual Studio 2013\Projects\PB SDK Skript47 C#\Application\obj\Debug\Skript47.Form3.resources
+C:\Users\Main\Documents\Visual Studio 2013\Projects\PB SDK Skript47 C#\Application\obj\Debug\Skript47.Properties.Resources.resources
+C:\Users\Main\Documents\Visual Studio 2013\Projects\PB SDK Skript47 C#\Application\obj\Debug\Win.csproj.GenerateResource.Cache
+C:\Users\Main\Documents\Visual Studio 2013\Projects\PB SDK Skript47 C#\Application\obj\Debug\Skript47.UserControl1.resources
+C:\Users\Main\Documents\Visual Studio 2013\Projects\PB SDK Skript47 C#\Application\obj\Debug\Win.csprojResolveAssemblyReference.cache
+C:\Users\Main\Documents\Visual Studio 2015\Projects\PB SDK Skript47 C#\Application\bin\Debug\PB SKD - By Skript47.exe.config
+C:\Users\Main\Documents\Visual Studio 2015\Projects\PB SDK Skript47 C#\Application\obj\Debug\PB SKD - By Skript47.exe
+C:\Users\Main\Documents\Visual Studio 2015\Projects\PB SDK Skript47 C#\Application\obj\Debug\PB SKD - By Skript47.pdb
+C:\Users\Main\Documents\Visual Studio 2015\Projects\PB SDK Skript47 C#\Application\bin\Debug\PB SKD - By Skript47.exe
+C:\Users\Main\Documents\Visual Studio 2015\Projects\PB SDK Skript47 C#\Application\bin\Debug\PB SKD - By Skript47.pdb
+C:\Users\Main\Documents\Visual Studio 2015\Projects\PB SDK Skript47 C#\Application\obj\Debug\Win.csprojResolveAssemblyReference.cache
+C:\Users\Main\Documents\Visual Studio 2015\Projects\PB SDK Skript47 C#\Application\obj\Debug\Skript47.Form1.resources
+C:\Users\Main\Documents\Visual Studio 2015\Projects\PB SDK Skript47 C#\Application\obj\Debug\Skript47.Form2.resources
+C:\Users\Main\Documents\Visual Studio 2015\Projects\PB SDK Skript47 C#\Application\obj\Debug\Skript47.Form3.resources
+C:\Users\Main\Documents\Visual Studio 2015\Projects\PB SDK Skript47 C#\Application\obj\Debug\Skript47.Properties.Resources.resources
+C:\Users\Main\Documents\Visual Studio 2015\Projects\PB SDK Skript47 C#\Application\obj\Debug\Skript47.UserControl1.resources
+C:\Users\Main\Documents\Visual Studio 2015\Projects\PB SDK Skript47 C#\Application\obj\Debug\Win.csproj.GenerateResource.Cache
+C:\Users\User\Documents\Visual Studio 2015\Projects\PB SDK Skript47 C#\Application\bin\Debug\PB SKD - By Skript47.exe.config
+C:\Users\User\Documents\Visual Studio 2015\Projects\PB SDK Skript47 C#\Application\obj\Debug\PB SKD - By Skript47.exe
+C:\Users\User\Documents\Visual Studio 2015\Projects\PB SDK Skript47 C#\Application\obj\Debug\PB SKD - By Skript47.pdb
+C:\Users\User\Documents\Visual Studio 2015\Projects\PB SDK Skript47 C#\Application\bin\Debug\PB SKD - By Skript47.exe
+C:\Users\User\Documents\Visual Studio 2015\Projects\PB SDK Skript47 C#\Application\bin\Debug\PB SKD - By Skript47.pdb
+C:\Users\User\Documents\Visual Studio 2015\Projects\PB SDK Skript47 C#\Application\obj\Debug\Win.csprojResolveAssemblyReference.cache
+C:\Users\User\Documents\Visual Studio 2015\Projects\PB SDK Skript47 C#\Application\obj\Debug\Skript47.Form1.resources
+C:\Users\User\Documents\Visual Studio 2015\Projects\PB SDK Skript47 C#\Application\obj\Debug\Skript47.Form2.resources
+C:\Users\User\Documents\Visual Studio 2015\Projects\PB SDK Skript47 C#\Application\obj\Debug\Skript47.Form3.resources
+C:\Users\User\Documents\Visual Studio 2015\Projects\PB SDK Skript47 C#\Application\obj\Debug\Skript47.Properties.Resources.resources
+C:\Users\User\Documents\Visual Studio 2015\Projects\PB SDK Skript47 C#\Application\obj\Debug\Skript47.UserControl1.resources
+C:\Users\User\Documents\Visual Studio 2015\Projects\PB SDK Skript47 C#\Application\obj\Debug\Win.csproj.GenerateResource.Cache
+D:\PB_SDK_Skript47_C\PB SDK Skript47 C#\Application\obj\Debug\Win.csprojResolveAssemblyReference.cache
+D:\PB_SDK_Skript47_C\PB SDK Skript47 C#\Application\obj\Debug\Skript47.Form1.resources
+D:\PB_SDK_Skript47_C\PB SDK Skript47 C#\Application\obj\Debug\Skript47.Form2.resources
+D:\PB_SDK_Skript47_C\PB SDK Skript47 C#\Application\obj\Debug\Skript47.Form3.resources
+D:\PB_SDK_Skript47_C\PB SDK Skript47 C#\Application\obj\Debug\Skript47.Properties.Resources.resources
+D:\PB_SDK_Skript47_C\PB SDK Skript47 C#\Application\obj\Debug\Skript47.UserControl1.resources
+D:\PB_SDK_Skript47_C\PB SDK Skript47 C#\Application\obj\Debug\Win.csproj.GenerateResource.Cache
+D:\PB_SDK_Skript47_C\PB SDK Skript47 C#\Application\bin\Debug\PB SKD - By NATCHKUNG.exe.config
+D:\PB_SDK_Skript47_C\PB SDK Skript47 C#\Application\bin\Debug\PB SKD - By NATCHKUNG.exe
+D:\PB_SDK_Skript47_C\PB SDK Skript47 C#\Application\bin\Debug\PB SKD - By NATCHKUNG.pdb
+D:\PB_SDK_Skript47_C\PB SDK Skript47 C#\Application\obj\Debug\PB SKD - By NATCHKUNG.exe
+D:\PB_SDK_Skript47_C\PB SDK Skript47 C#\Application\obj\Debug\PB SKD - By NATCHKUNG.pdb
